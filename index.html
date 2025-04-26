@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void | Modern Website Development</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">V<span>OID</span></div>
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><span class="void-logo-text">VOID</span></a>
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#discord" class="discord-btn"><i class="fab fa-discord"></i> Join Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-backdrop"></div>
+            <div class="hero-content">
+                <h1 class="title">
+                    <span class="void-text">V<span class="animated-text">OID</span></span>
+                </h1>
+                <p class="tagline">Making your website <span class="highlight cool">cool</span>, <span class="highlight op">op</span>, and <span class="highlight affordable">affordable</span>.</p>
+                <div class="cta-buttons">
+                    <a href="#skills" class="btn primary-btn">Our Skills</a>
+                    <a href="#portfolio" class="btn secondary-btn">View Our Work</a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrows">
+                    <span class="arrow-down"></span>
+                    <span class="arrow-down"></span>
+                </div>
+            </div>
+            <div class="particles-container" id="particles-js"></div>
+        </section>
+
+        <section id="services" class="services">
+            <h2 class="section-title"><span class="highlight-section">Our Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush fa-3x"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Modern, responsive designs that captivate your audience and enhance user experience.</p>
+                    <div class="service-hover">
+                        <div class="service-details">
+                            <ul>
+                                <li>UI/UX Design</li>
+                                <li>Responsive Layouts</li>
+                                <li>Brand Integration</li>
+                                <li>Prototype Development</li>
+                            </ul>
+                            <a href="#" class="btn small-btn service-modal-trigger" data-service="design">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code fa-3x"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p>Clean, efficient code that brings your design to life with seamless functionality.</p>
+                    <div class="service-hover">
+                        <div class="service-details">
+                            <ul>
+                                <li>Frontend Development</li>
+                                <li>Backend Integration</li>
+                                <li>API Development</li>
+                                <li>Database Architecture</li>
+                            </ul>
+                            <a href="#" class="btn small-btn service-modal-trigger" data-service="development">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket fa-3x"></i>
+                    </div>
+                    <h3>Optimization</h3>
+                    <p>Performance-focused improvements to make your website lightning fast and user-friendly.</p>
+                    <div class="service-hover">
+                        <div class="service-details">
+                            <ul>
+                                <li>Performance Tuning</li>
+                                <li>SEO Optimization</li>
+                                <li>Load Time Reduction</li>
+                                <li>Conversion Rate Optimization</li>
+                            </ul>
+                            <a href="#" class="btn small-btn service-modal-trigger" data-service="optimization">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process">
+            <h2 class="section-title"><span class="highlight-section">Our Process</span></h2>
+            <div class="process-timeline">
+                <div class="process-item">
+                    <div class="process-number">01</div>
+                    <div class="process-content">
+                        <h3>Discovery</h3>
+                        <p>We learn about your business, goals, target audience, and expectations to craft a tailored solution.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">02</div>
+                    <div class="process-content">
+                        <h3>Strategy</h3>
+                        <p>We develop a comprehensive plan covering design, functionality, content, and technical requirements.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">03</div>
+                    <div class="process-content">
+                        <h3>Design</h3>
+                        <p>Our creative team crafts stunning visuals and intuitive interfaces aligned with your brand identity.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">04</div>
+                    <div class="process-content">
+                        <h3>Development</h3>
+                        <p>Our developers bring the designs to life with clean, efficient, and scalable code.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">05</div>
+                    <div class="process-content">
+                        <h3>Launch</h3>
+                        <p>After thorough testing, we deploy your website and ensure everything works flawlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="stat-container">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="120">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="5">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-label">Awards Won</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title"><span class="highlight-section">Our Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Vue.js</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Design</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">UI/UX Design</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Responsive Design</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Adobe XD</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Express</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">API Development</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress-bar" data-percentage="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <h2 class="section-title"><span class="highlight-section">Our Pricing</span></h2>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Regular</h3>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">5</span>
+                            <span class="period">/project</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 3 Page Website</li>
+                            <li><i class="fas fa-check"></i> Mobile Friendly Design</li>
+                            <li><i class="fas fa-check"></i> Basic Contact Form</li>
+                            <li><i class="fas fa-check"></i> Simple SEO Setup</li>
+                            <li><i class="fas fa-times"></i> Custom Animations</li>
+                            <li><i class="fas fa-times"></i> CMS Integration</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#discord" class="btn primary-btn">Get Started</a>
+                    </div>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">7</span>
+                            <span class="period">/project</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 5 Page Website</li>
+                            <li><i class="fas fa-check"></i> Mobile Friendly Design</li>
+                            <li><i class="fas fa-check"></i> Advanced Contact Form</li>
+                            <li><i class="fas fa-check"></i> Better SEO Setup</li>
+                            <li><i class="fas fa-check"></i> Basic Animations</li>
+                            <li><i class="fas fa-check"></i> Basic CMS Setup</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#discord" class="btn primary-btn">Get Started</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Gold</h3>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">10</span>
+                            <span class="period">/project</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                            <li><i class="fas fa-check"></i> Mobile Friendly Design</li>
+                            <li><i class="fas fa-check"></i> Custom Forms with Logic</li>
+                            <li><i class="fas fa-check"></i> Full SEO Package</li>
+                            <li><i class="fas fa-check"></i> Fancy Animations</li>
+                            <li><i class="fas fa-check"></i> Full E-commerce Setup</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#discord" class="btn primary-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="testimonials" class="testimonials">
+            <h2 class="section-title"><span class="highlight-section">Client Testimonials</span></h2>
+            
+            <div class="testimonials-container">
+                <div class="testimonial-item">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>Void totally transformed our old website into something amazing! It looks super modern and people actually stick around now. Their attention to detail exceeded our expectations.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Client">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Marketing Director, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>Working with Void was seriously the best decision we made! Our online shop looks fantastic and converts way better now. Our sales are up 40% since the redesign.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Client">
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Founder, StyleHub</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>The Void team just got our vision right from day one! They didn't just build a website - they created an experience that perfectly represents our brand identity.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Client">
+                        </div>
+                        <div class="author-info">
+                            <h4>Emma Rodriguez</h4>
+                            <p>CEO, Creative Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tech-stack" class="tech-stack-section">
+            <h2 class="section-title"><span class="highlight-section">Our Tech Stack</span></h2>
+            
+            <div class="tech-stack-grid">
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="tech-name">HTML5</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="tech-name">CSS3</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="tech-name">JavaScript</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="tech-name">React</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-vuejs"></i>
+                    </div>
+                    <div class="tech-name">Vue.js</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="tech-name">Node.js</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="tech-name">MongoDB</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-sass"></i>
+                    </div>
+                    <div class="tech-name">Sass</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="discord" class="discord-section">
+            <h2 class="section-title"><span class="highlight-section">Join Our Community</span></h2>
+            <div class="discord-container">
+                <div class="discord-content">
+                    <div class="discord-content-text">
+                        <div class="discord-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="discord-content-text-inner">
+                            <h3>Join Our Discord</h3>
+                            <p>Connect with our team, get support, and join a community of like-minded individuals who share your passion for web development and design.</p>
+                        </div>
+                    </div>
+                    <div class="discord-content-button">
+                        <a href="https://discord.gg/hyxKc7hjdD" target="_blank" class="btn discord-join-btn">
+                            <i class="fab fa-discord"></i> Join Discord
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="service-modal" id="design-modal">
+            <div class="service-modal-content">
+                <div class="service-modal-header">
+                    <h2>Marketing Services</h2>
+                    <button class="service-modal-close"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="service-modal-body">
+                    <p>Got an awesome website? Let's make sure people actually find it! Our marketing strategies help get your brand in front of the right people and turn visitors into customers.</p>
+                    
+                    <h3>Our Marketing Game Plan</h3>
+                    <p>We don't just throw random tactics at the wall - we build custom strategies that actually work:</p>
+                    <ol>
+                        <li>Understand Your Audience - Figure out who you're trying to reach</li>
+                        <li>Set Clear Goals - Define what success looks like for you</li>
+                        <li>Pick the Right Channels - Focus on platforms where your audience hangs out</li>
+                        <li>Create Engaging Content - Develop stuff people actually want to see</li>
+                        <li>Track & Adapt - Measure what's working and double down on the winners</li>
+                    </ol>
+                    
+                    <h3>Marketing Magic We Offer</h3>
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <i class="fas fa-search"></i>
+                            <div>
+                                <h4>SEO</h4>
+                                <p>We help your site climb those Google rankings so you show up when people search for what you offer.</p>
+                            </div>
+                        </div>
+                        <div class="service-feature">
+                            <i class="fas fa-ad"></i>
+                            <div>
+                                <h4>PPC Advertising</h4>
+                                <p>Smart ad campaigns that target your ideal customers without blowing your budget.</p>
+                            </div>
+                        </div>
+                        <div class="service-feature">
+                            <i class="fas fa-hashtag"></i>
+                            <div>
+                                <h4>Social Media</h4>
+                                <p>Build a loyal following with content that gets likes, shares, and actually brings in business.</p>
+                            </div>
+                        </div>
+                        <div class="service-feature">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Marketing</h4>
+                                <p>Newsletters and campaigns people actually open, building relationships that lead to sales.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-modal-footer">
+                    <a href="#discord" class="btn primary-btn">Get Started with Marketing</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="service-modal" id="development-modal">
+            <div class="service-modal-content">
+                <div class="service-modal-header">
+                    <h2>Development Services</h2>
+                    <button class="service-modal-close"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="service-modal-body">
+                    <p>Our dev wizards turn great designs into fully functional websites with clean, efficient code that actually works. We build stuff that not only looks amazing but is also super easy to update later on.</p>
+                    
+                    <h3>How We Code Things Up</h3>
+                    <p>We use all the latest tricks and tools to deliver top-notch websites:</p>
+                    <ol>
+                        <li>Figure Out What's Needed - We make sure we understand exactly what you want</li>
+                        <li>Plan It Out - We map the technical structure before diving in</li>
+                        <li>Build In Chunks - We develop bit by bit so you can see progress</li>
+                        <li>Test Everything - We make sure it all works perfectly</li>
+                        <li>Launch & Support - We get it live and keep it running smoothly</li>
+                    </ol>
+                    
+                    <h3>Dev Stuff We're Great At</h3>
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Frontend Development</h4>
+                                <p>We build slick, responsive interfaces using cool tech like React, Vue, or vanilla JS - whatever fits your project best.</p>
+                            </div>
+                        </div>
+                        <div class="service-feature">
+                            <i class="fas fa-server"></i>
+                            <div>
+                                <h4>Backend Development</h4>
+                                <p>All the behind-the-scenes magic that makes your site actually do stuff and handle data.</p>
+                            </div>
+                        </div>
+                        <div class="service-feature">
+                            <i class="fas fa-database"></i>
+                            <div>
+                                <h4>Database Design</h4>
+                                <p>Smart data organization that keeps everything running fast and smooth, even as you grow.</p>
+                            </div>
+                        </div>
+                        <div class="service-feature">
+                            <i class="fas fa-plug"></i>
+                            <div>
+                                <h4>API Development</h4>
+                                <p>Custom connections that let your site talk to other services and pull in exactly what you need.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-modal-footer">
+                    <a href="#discord" class="btn primary-btn">Get Started with Development</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="service-modal" id="optimization-modal">
+            <div class="service-modal-content">
+                <div class="service-modal-header">
+                    <h2>Optimization Services</h2>
+                    <button class="service-modal-close"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="service-modal-body">
+                    <p>We optimize your website for maximum performance, search engine visibility, and conversion rates. Our optimization services ensure your site not only looks great but also delivers results.</p>
+                    
+                    <h3>Our Optimization Process</h3>
+                    <p>We take a data-driven approach to optimization:</p>
+                    <ol>
+                        <li>Performance Audit</li>
+                        <li>SEO Analysis</li>
+                        <li>User Experience Assessment</li>
+                        <li>Implementation of Improvements</li>
+                        <li>Ongoing Monitoring & Refinement</li>
+                    </ol>
+                    
+                    <h3>Key Optimization Services</h3>
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <div>
+                                <h4>Performance Optimization</h4>
+                                <p>Speed up your website to reduce bounce rates and improve user satisfaction.</p>
+                            </div>
+                        </div>
+                        <div class="service-feature">
+                            <i class="fas fa-search"></i>
+                            <div>
+                                <h4>SEO Enhancement</h4>
+                                <p>Improve your search engine rankings to drive more organic traffic.</p>
+                            </div>
+                        </div>
+                        <div class="service-feature">
+                            <i class="fas fa-user-check"></i>
+                            <div>
+                                <h4>Conversion Rate Optimization</h4>
+                                <p>Turn more visitors into customers with data-driven CRO techniques.</p>
+                            </div>
+                        </div>
+                        <div class="service-feature">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div>
+                                <h4>Mobile Optimization</h4>
+                                <p>Ensure your site performs flawlessly on all mobile devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-modal-footer">
+                    <a href="#discord" class="btn primary-btn">Get Started with Optimization</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Void</h3>
+                <p>Making your website cool, op, and affordable.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://discord.gg/hyxKc7hjdD" target="_blank"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Optimization</a></li>
+                    <li><a href="#">Branding</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Void. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
